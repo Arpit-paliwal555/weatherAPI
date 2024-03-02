@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather Forecast App
 
-Currently, two official plugins are available:
+This is a webpage to get the weather of a particular location which when entered the location name and clicking the button re-renders the page with the forecast of the location with sunrise, sunset, wind, humidity, precipitaion, pressure, visibility and feels like forecasts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+
+## Tech Stack
+
+**1.** Vite.js.  
+**2.** React.js.
+**3.** Tailwind CSS.
+
+## Deployment
+
+To deploy this project run: (with node.js installed)
+
+```bash
+  npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Screenshots
+Search:
+![Screenshot (115)](https://github.com/Arpit-paliwal555/weatherAPI/assets/89298013/f281c679-15d9-45bd-848a-6003bd85b0b8)
+
+
+Forecast:
+![Screenshot (116)](https://github.com/Arpit-paliwal555/weatherAPI/assets/89298013/2105b212-7c3f-4d94-a82e-0d40050f3baa)
+
+## Author
+
+- [@Arpit](https://www.github.com/Arpit-paliwal555)
+
